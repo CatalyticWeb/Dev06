@@ -1,0 +1,40 @@
+body {
+  background-color: beige;
+}
+
+.header {
+  position: fixed;
+  top:0;
+  height: 65px;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: rgb(104, 212, 176);
+}
+
+.main {
+  padding: 75px 0 50px 0;
+}
+
+.container {
+  width: 50%;
+  height: auto;
+  margin: 20px 30px 20px 30px;
+  padding: 6px 9px 9px 15px;
+  /* border: 1px solid black; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-look {
+  background-color:  rgb(250, 250, 241);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+  background-color: silver;
+  width: 100%;
+  padding: 10px;
+  padding-top: 25px;
+  padding-left: 10%;
+}
