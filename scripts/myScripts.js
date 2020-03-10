@@ -29,7 +29,7 @@ function inOutFunction() {
   var result = Math.round(christmasDay.getTime() - presentDate.getTime()) / (oneDay);
   var daysToChristmas = result.toFixed(0);
 
-  console.log("Calculated Days till Christmas"+daysToChristmas);
+  console.log("Calculated Days till Christmas");
 
   document.getElementById("daysTillChristmas").innerHTML = "There are "+daysToChristmas+" days till Christmas.";
   console.log("printed days till chrsitmas");
